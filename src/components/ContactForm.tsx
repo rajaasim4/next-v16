@@ -57,7 +57,7 @@ export default function ContactForm() {
       }}
     >
       {({ errors, touched }) => (
-        <Form className="space-y-4 max-w-md mx-auto p-4 border rounded-lg">
+        <Form className="space-y-4 max-w-2xl w-full mt-10 mx-auto p-4 border rounded-lg">
           {/* Name */}
           <div>
             <Field

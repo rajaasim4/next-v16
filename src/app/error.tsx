@@ -14,10 +14,10 @@ export default function Error({
   }, [error]);
 
   return (
-    <main className="flex h-full flex-col items-center justify-center">
-      <h2>⚠️ Oops! Something went wrong.</h2>
+    <main className="flex h-full min-h-screen flex-col items-center justify-center">
+      <h2 className="text-2xl">⚠️ Oops! Something went wrong.</h2>
       <button
-        className="mt-4 rounded-md bg-blue-500 px-4 py-2 text-sm text-white transition-colors hover:bg-blue-400"
+        className="mt-4  hover:underline bg-blue-500 px-5 py-3 rounded-md text-white"
         onClick={() => reset()}
       >
         Try again

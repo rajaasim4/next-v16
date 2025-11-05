@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Users",
 };
 const page = () => {
-  //   throw new Error("Failed to fetch data");
+  throw new Error("Failed to fetch data");
   const users = [
     { id: 1, name: "Alice" },
     { id: 2, name: "Bob" },

@@ -6,8 +6,7 @@ export const metadata: Metadata = {
 };
 const Dashboard = () => {
   return (
-    <div>
-      <ContactForm />
+    <div className="flex flex-col items-center w-[1400px] mx-auto">
       <ul className="gap-10 flex items-center mt-10">
         <li>
           <Link href="/dashboard/analytics">Analytics</Link>
@@ -16,6 +15,7 @@ const Dashboard = () => {
           <Link href="/dashboard/users">Users</Link>
         </li>
       </ul>
+      <ContactForm />
     </div>
   );
 };
