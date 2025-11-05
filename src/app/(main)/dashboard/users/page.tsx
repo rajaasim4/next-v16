@@ -1,6 +1,10 @@
+import { Metadata } from "next";
 import Link from "next/link";
 import React from "react";
 
+export const metadata: Metadata = {
+  title: "Users",
+};
 const page = () => {
   //   throw new Error("Failed to fetch data");
   const users = [
